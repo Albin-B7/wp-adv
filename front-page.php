@@ -6,8 +6,10 @@
         while (have_posts()) {
             the_post();
             the_content();
+            
         }
     }
     ?>
-</article>
-<?php get_footer(); ?>    
+    </article>
+
+<?php get_footer(); ?>
